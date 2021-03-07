@@ -5,7 +5,11 @@ import org.testng.annotations.Test;
 
 public class Class1 {
 	
-	
+	@BeforeMethod
+	public void beforeMethod()
+	{
+		System.out.println("Test method ");
+	}
 	
 	@Test
 	public void testMethod()
