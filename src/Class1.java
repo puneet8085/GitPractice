@@ -14,6 +14,12 @@ public class Class1 {
 	}
 	
 	
-	
+
+	@BeforeMethod
+	public void beforeMethod()
+	{
+		System.out.println("Test method ");
+	}
+
 	
 }
