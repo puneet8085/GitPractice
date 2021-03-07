@@ -14,8 +14,8 @@ public class Class1 {
 	}
 	
 	
-	@AfterMethod
-	public void afterMethod()
+	@BeforeMethod
+	public void beforeMethod()
 	{
 		System.out.println("Test method ");
 	}
