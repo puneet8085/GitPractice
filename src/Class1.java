@@ -14,10 +14,6 @@ public class Class1 {
 	}
 	
 	
-	@AfterMethod
-	public void afterMethod()
-	{
-		System.out.println("Test method ");
-	}
+	
 	
 }
