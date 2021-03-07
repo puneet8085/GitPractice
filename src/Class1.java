@@ -1,4 +1,5 @@
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -9,6 +10,12 @@ public class Class1 {
 	public void beforTest()
 	{
 		System.out.println("Execute before @BeforeMetod now");
+	}
+	
+	@AfterSuite
+	public void afterSuite()
+	{
+		System.out.println("Execute After @After Test");
 	}
 	
 	@BeforeMethod
